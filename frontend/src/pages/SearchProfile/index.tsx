@@ -32,11 +32,9 @@ const SearchProfile = () => {
       .get(`https://api.github.com/users/${login.nickname}`)
       .then((responde) => {
         setProfileData(responde.data);
-        console.log(responde.data);
       })
       .catch((error) => {
         setProfileData(undefined);
-        console.log(error);
       })
       .finally(() => {
         setIsLoading(false);
@@ -64,7 +62,7 @@ const SearchProfile = () => {
         </div>
       </div>
       {isLoading ? (
-        <div className="card-profile-contaneir">
+        <div className="card-loader-contaneir">
           <ProfileLoader />
         </div>
       ) : (
