@@ -1,0 +1,61 @@
+.search-container {
+  width: 1200px;
+  margin: 50px 90px 0px 90px;
+}
+
+.search-content {
+  background-color: #e6f7ff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  padding-left: 30px;
+}
+.search-content h2 {
+  font-weight: 500;
+  font-size: 38px;
+  letter-spacing: 0.02em;
+  color: #262626;
+  padding-bottom: 15px;
+}
+.search-content input {
+  font-size: 16px;
+  font-weight: 400;
+  color: #bfbfbf;
+  width: 300px;
+  height: 40px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding-left: 20px;
+}
+.search-content input:focus {
+  outline: none;
+}
+.search-content button {
+  width: 100px;
+  height: 40px;
+  margin-top: 25px;
+  border: none;
+  background: #1890ff;
+  border-radius: 4px;
+}
+
+.search-content button h3 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.card-profile-contaneir {
+  width: 1200px;
+  margin: 50px 90px 0px 90px;
+}
+
+.card-loader-contaneir {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  margin: 50px 90px 0px 90px;
+}

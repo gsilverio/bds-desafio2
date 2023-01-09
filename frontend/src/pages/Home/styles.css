@@ -1,0 +1,35 @@
+.home-container {
+  padding-left: 40px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-container h2 {
+  font-weight: 700;
+  font-size: 48px;
+  letter-spacing: 0.02em;
+  color: black;
+}
+
+.home-container p {
+  font-size: 24px;
+  font-weight: 700;
+  color: #7e7e7e;
+  letter-spacing: 0.02em;
+}
+
+.home-button {
+  background-color: #1890ff;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  width: 100px;
+  height: 40px;
+}
+
+.home-button h3 {
+  font-size: 16px;
+  margin: 0;
+}
